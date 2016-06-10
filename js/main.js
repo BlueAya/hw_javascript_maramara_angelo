@@ -45,3 +45,35 @@ var president5 = {
 var presidents = [president1, president2, president3, president4, president5];
 
 console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
+
+function howdy() {
+    return 'Angelo Maramara says hi!';
+}
+
+howdy();
+
+console.log(howdy());
+
+var numba = function (string) {
+    if (string.length < 7) {
+        console.log('What a short little word!');
+    } else if (string.length > 7) {
+        console.log('I\'m sorry, but that\'s too many to count.');
+    } else if (string.length === 7) {
+        console.log('7, what a perfect choice!');
+    }
+};
+
+numba('7');
+numba('seventy');
+numba('university');
+
+function inception(display, favMovie) {
+    display(favMovie);
+}
+
+var message = function display(favMovie) {
+    console.log(favMovie + ' is a fantastic movie!');
+};
+
+inception(message, 'Avengers');
