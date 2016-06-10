@@ -1,6 +1,10 @@
+//arrays
+
 var iceCream = ['vanilla', 'strawberry', 'pistachio'];
 
 iceCream.push('chocolate');
+
+//presidents
 
 var president1 = {
     firstName: 'Barack',
@@ -45,6 +49,8 @@ var president5 = {
 var presidents = [president1, president2, president3, president4, president5];
 
 console.log(presidents[2].firstName + ' ' + presidents[2].lastName);
+
+//functions
 
 function howdy() {
     return 'Angelo Maramara says hi!';
